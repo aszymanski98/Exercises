@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>walidacjaFormularza</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <ul id="errors"></ul>
+
+    <form id="form">
+        <label for="name">Imię i nazwisko: </label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Adres e-mail:</label>
+        <input type="text" id="email" name="email">
+
+        <input type="checkbox" name="agree-1" id="agree-1">
+        <label for="agree-1">Wyrażam zgodę 1</label>
+
+        <input type="checkbox" name="agree-2" id="agree-2">
+        <label for="agree-2">Wyrażam zgodę 2</label>
+
+        <input type="checkbox" name="agree-all" id="agree-all">
+        <label for="agree-all">Wyrażam wszystkie zgody</label>
+
+        <button type="submit" id="submitBut">Wyślij</button>
+    </form>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

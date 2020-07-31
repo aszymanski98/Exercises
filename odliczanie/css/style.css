@@ -1,0 +1,102 @@
+body {
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.counting {
+    width: 50%;
+    height: 50%;
+    font-size: 10em;
+    font-weight: 100;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    visibility: hidden;
+}
+
+.counting-number,
+.text {
+    position: absolute;
+}
+
+.counting-number {
+    animation: 1s showHide;
+    animation-fill-mode: forwards;
+}
+
+.nine {
+    animation-delay: 1s;
+}
+
+.eight {
+    animation-delay: 2s;
+}
+
+.seven {
+    animation-delay: 3s;
+}
+
+.six {
+    animation-delay: 4s;
+}
+
+.five {
+    animation-delay: 5s;
+}
+
+.four {
+    animation-delay: 6s;
+}
+
+.three {
+    animation-delay: 7s;
+}
+
+.two {
+    animation-delay: 8s;
+}
+
+.one {
+    animation-delay: 9s;
+}
+
+.text {
+    font-size: 0.5em;
+    animation: 1s show;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+
+@keyframes showHide {
+    0% {
+        visibility: hidden;
+    }
+
+    99% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+
+}
+
+@keyframes show {
+    0% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+
+}

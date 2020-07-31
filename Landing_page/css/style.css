@@ -1,0 +1,39 @@
+.padding {
+    padding: 60px 0px;
+}
+
+.showcase-img,
+.form {
+    background-size: cover;
+    background-position: center;
+}
+
+.showcase-txt {
+    padding: 50px;
+}
+
+.team-item,
+.team-item-last {
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .showcase-img {
+        height: 300px;
+    }
+
+    .services-item,
+    .team-item {
+        margin-bottom: 50px;
+    }
+
+    .services-item:last-child,
+    .team-item-last
+     {
+        margin-bottom: 0;
+    }
+    
+    .email-form {
+        padding:0;
+    }
+}

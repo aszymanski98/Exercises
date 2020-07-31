@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+}
+
+.big {
+    width: 610px;
+    height: 610px;
+    background-color: white;
+    z-index: 0;
+}
+
+.squarerow {
+    width: 196px;
+    height: 196px;
+    border: 2px white solid;
+    display: inline-block;
+    position: relative;
+    z-index: 5;
+}
+
+.circles {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px black solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.square1,
+.circle5 {
+    background-color: red;
+}
+
+.square2,
+.circle6 {
+    background-color: blue;
+}
+
+.square3,
+.circle4 {
+    background-color: green
+}
+
+.square4,
+.circle8 {
+    background-color: yellow;
+}
+
+.square5,
+.circle9 {
+    background-color: black;
+}
+
+.square6,
+.circle7 {
+    background-color: orange;
+}
+
+.square7,
+.circle3 {
+    background-color: purple;
+}
+
+.square8,
+.circle2 {
+    background-color: gray;
+}
+
+.square9,
+.circle1 {
+    background-color: pink;
+}

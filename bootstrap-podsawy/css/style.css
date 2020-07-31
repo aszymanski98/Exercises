@@ -1,0 +1,17 @@
+.text-orange {
+    color: rgb(255, 145, 0);
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

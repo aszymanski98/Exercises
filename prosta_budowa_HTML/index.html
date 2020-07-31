@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie_HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <form action="https://formspree.io/mbjzzogw" method="POST">
+        <label for="imie">Imię: </label>
+        <input type="text" id="imie" name="name" required> <br>
+
+        <label for="surname">Nazwisko: </label>
+        <input type="text" id="surname" name="surname" required> <br>
+
+        <label for="email">Adres e-mail: </label>
+        <input type="email" id="email" name="email" required> <br>
+
+        <label for="tele">Numer telefonu: </label>
+        <input type="tel" id="tele" name="telefon" required> <br>
+
+        <label for="miasto">Wybierz miasto: </label>
+        <select name="miasto" id="miasto">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa" selected>Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select> <br>
+
+        <label>Wybierz płeć: </label>
+        <input type="radio" name="plec" id="men" value="men"><label for="men">Mężczyzna</label>
+        <input type="radio" name="plec" id="woman" value="woman"><label for="woman">Kobieta</label> <br> <br>
+
+        <input type="checkbox" id="zgoda" name="zgoda" value="zgoda" required><label for="zgoda">Wyrażam zgodę na przetwarzanie moich danych osobowych</label> <br>
+
+        <textarea name="message" cols="40" rows="5" placeholder="Treśc dodatkowej wiadomości"></textarea> <br>
+
+        <input type="submit" value="Wyślij zgłoszenie!">
+
+    </form>
+
+
+</body>
+
+</html>

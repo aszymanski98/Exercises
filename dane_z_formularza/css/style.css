@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: pink;
+}
+
+button {
+    color: gray;
+    font-size: large;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

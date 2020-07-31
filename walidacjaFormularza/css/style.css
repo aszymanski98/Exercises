@@ -1,0 +1,51 @@
+ html {
+    background-color: rgb(85, 85, 85);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+ul {
+    color: rgb(60, 214, 21);
+}
+
+form,
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    margin: 40px auto 0px auto;
+    justify-content: center;
+    padding: 0;
+}
+
+input,
+label {
+    flex-basis: 90%;
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+    flex-basis: 5%;
+}
+
+input:nth-of-type(3),
+label:nth-of-type(3) {
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 50px;
+    align-self: center;
+    padding: 14px 20px;
+    background-color: rgb(60, 214, 21);
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+button:hover {
+    background-color: orange;
+}
